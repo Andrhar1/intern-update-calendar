@@ -1,5 +1,5 @@
 import { google } from 'googleapis';
-import { NowRequest, NowResponse } from '@vercel/node';
+//import { NowRequest, NowResponse } from '@vercel/node';
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
